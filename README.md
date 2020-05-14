@@ -1,5 +1,9 @@
 # FastHttpCache
 
+## Overview
+
+This is a sample app that follows the short tutorial for setting up `localStorage` caching in an angular project that Stephen Fluin shared on YouTube https://www.youtube.com/watch?v=Yf1FfhMetjs.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
 
 ## Development server
