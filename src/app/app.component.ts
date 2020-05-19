@@ -29,7 +29,7 @@ export class AppComponent implements OnInit {
         return data.items;
       }),
       distinctUntilChanged(),
-      shareReplay()
+      shareReplay({ refCount: true })
     );
   }
 }

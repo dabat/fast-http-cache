@@ -2,11 +2,13 @@
 
 ## Overview
 
-This is a sample app that follows the short tutorial for setting up `localStorage` caching in an angular project that Stephen Fluin shared on YouTube https://www.youtube.com/watch?v=Yf1FfhMetjs.
+This is a sample app that follows the short tutorial for setting up `localStorage` caching in an angular project that Stephen Fluin shared on YouTube in [the Demos with Angular channel.](https://www.youtube.com/watch?v=Yf1FfhMetjs)
 
 The branch original shows the end result from the video tutorial.
 
 The branch master shows an updated version that implements a few improvements that should make this approach more useable in a real application.
+
+Added the `shareReplay` config object with `refCount: true`, after reading [this very helpful article by Nicholas Jamieson](https://ncjamieson.com/whats-changed-with-sharereplay/) and also added [the recommended tslint rules.](https://github.com/cartant/rxjs-tslint-rules#rxjs-no-sharereplay) Thanks to [@Simon_Weaver](https://stackoverflow.com/users/16940/simon-weaver) who shared a link to Nicholas' article in [this StackOverflow thread](https://stackoverflow.com/questions/47926240/when-should-i-use-publishreplay-vs-sharereplay/53979783#53979783).
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
 
