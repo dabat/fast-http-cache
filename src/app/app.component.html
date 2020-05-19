@@ -1,5 +1,5 @@
 <h1>Fast HTTP Caching</h1>
-<div *ngFor="let repo of repos$ | async">
+<div *ngFor="let repo of repos | async">
   <h1>{{ repo.name }}</h1>
   <div>{{ repo.description }}</div>
 </div>
