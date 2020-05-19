@@ -4,6 +4,10 @@
 
 This is a sample app that follows the short tutorial for setting up `localStorage` caching in an angular project that Stephen Fluin shared on YouTube https://www.youtube.com/watch?v=Yf1FfhMetjs.
 
+The branch original shows the end result from the video tutorial.
+
+The branch master shows an updated version that implements a few improvements that should make this approach more useable in a real application.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
 
 ## Development server
